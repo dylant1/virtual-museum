@@ -19,3 +19,9 @@ module.exports = withMDX({
   // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
 });
+module.exports = {
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true,
+  },
+};
