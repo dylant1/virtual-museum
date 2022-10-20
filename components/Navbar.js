@@ -32,13 +32,22 @@ export const Navbar = () => {
           <Link href="/">Home</Link>
         </LinkWrapper>
         <LinkWrapper>
-          <Link href="/">Linkasdfdsaf</Link>
+          <Link href="/differenceengine">1822</Link>
+        </LinkWrapper>
+        <LinkWrapper>
+          <Link href="/oncomputablenumbers">1936</Link>
         </LinkWrapper>
         <LinkWrapper>
           <Link href="/">Link</Link>
-        </LinkWrapper>
+        </LinkWrapper>{" "}
         <LinkWrapper>
           <Link href="/">Link</Link>
+        </LinkWrapper>{" "}
+        <LinkWrapper>
+          <Link href="/">Link</Link>
+        </LinkWrapper>{" "}
+        <LinkWrapper>
+          <Link href="/">2014</Link>
         </LinkWrapper>
       </Wrapper>
     </Nav>
