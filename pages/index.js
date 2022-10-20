@@ -48,7 +48,7 @@ export default function Home() {
             process of removing physical, spatial, or temporal attributes in the
             study of systems.
           </i>{" "}
-          This allows one's focus to shift to attributes with greater
+          This allows one&apos;s focus to shift to attributes with greater
           importance, or, in this case, ease the entry into the field. As both
           software and hardware are further abstracted, a low-level
           understanding of abstract and theoretical topics (e.g., Turing
