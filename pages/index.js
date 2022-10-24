@@ -197,17 +197,18 @@ export default function Home() {
           longer was it necessary to learn computer science from a purely
           theoretical background, as abstraction in the form of physical
           machines allowed the common person to write software without a
-          bulletproof understanding how the computer functioned at a low level.
-        </BodyText>
-        <br />
-        <BodyText>
-          &emsp; As modern computers have progressed due to advances in
+          bulletproof understanding how the computer functioned at a low
+          level.As modern computers have progressed due to advances in
           technology, abstraction has become all the more important. As Mitchel
           Resnick states in his interview, &quot;Our ultimate goals with Scratch
           are to help young people think creatively, reason systematically and
           work collaboratively (Interview with MWB).&quot; Without abstraction,
           this hands-on learning would be extremely difficult as understanding
-          every concept sufficiently would require numerous years of studying.
+          every concept sufficiently would require numerous years of studying.In
+          conclusion, without abstraction, Computer Science would be much less
+          accessible for beginners as it would take an extremely long amount of
+          time to understand the bare-bones fundamentals behind every single
+          concept in the field.
         </BodyText>
       </Body>
       <br />
@@ -220,15 +221,14 @@ export default function Home() {
         >
           Guido van Rossum, Python.org, https://www.python.org/.
           <br />
-          Turing, Alan Mathison. &quot;On computable numbers, with an
-          application to the Entscheidungsproblem.&quot;(1936)
-          <br />
           International Business Machines, Fortran,
           https://fortran-lang.org/en/. <br />
-          Mitchel Resnick, interview with MWB, <i>MWB.com</i>, MWB, Feb 8. 2014
-          <br />
           Micro Instrumentation and Telemetry Systems, Altair 8800, National
           Musuem of American History, 1974
+          <br /> Mitchel Resnick, interview with MWB, <i>MWB.com</i>, MWB, Feb
+          8. 2014
+          <br></br>Turing, Alan Mathison. &quot;On computable numbers, with an
+          application to the Entscheidungsproblem.&quot;(1936)
         </BodyText>
       </Body>
     </Wrapper>
