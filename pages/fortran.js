@@ -3,6 +3,7 @@ import { Wrapper, Title, Body, BodyHeader, BodyText } from "./index";
 import Link from "next/link";
 import { Metadata } from "../components/Metadata";
 import styled from "styled-components";
+import Image from "next/image";
 const MetadataWrapper = styled.div`
   display: flex;
   justify-content: center;
