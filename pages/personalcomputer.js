@@ -29,7 +29,7 @@ const PersonalComputer = () => {
               <li>Measurements: 7in x 17in x 18in</li>
               <li>
                 <a
-                  href="https://www.wolframscience.com/prizes/tm23/images/Turing.pdf"
+                  href="https://americanhistory.si.edu/collections/search/object/nmah_334396"
                   style={{
                     color: "blue",
                     textDecoration: "underline",

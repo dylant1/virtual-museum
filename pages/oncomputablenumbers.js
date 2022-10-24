@@ -40,6 +40,17 @@ const Oncomputablenumbers = () => {
                 </i>
               </li>
               <li>Author: Alan M. Turing </li> <li>Date: 1936</li>
+              <li>
+                <a
+                  href="https://www.wolframscience.com/prizes/tm23/images/Turing.pdf"
+                  style={{
+                    color: "blue",
+                    textDecoration: "underline",
+                  }}
+                >
+                  Source
+                </a>
+              </li>
             </ul>
           }
         ></Metadata>

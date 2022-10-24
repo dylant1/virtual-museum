@@ -205,14 +205,32 @@ export default function Home() {
           technology, abstraction has become all the more important. As Mitchel
           Resnick states in his interview, &quot;Our ultimate goals with Scratch
           are to help young people think creatively, reason systematically and
-          work collaboratively.&quot; Without abstraction, this hands-on
-          learning would be extremely difficult as understanding every concept
-          sufficiently would require numerous years of studying.
+          work collaboratively (Interview with MWB).&quot; Without abstraction,
+          this hands-on learning would be extremely difficult as understanding
+          every concept sufficiently would require numerous years of studying.
         </BodyText>
       </Body>
-      {/* <Body>
+      <br />
+      <Body>
         <BodyHeader>Bibliography</BodyHeader>
-            </Body> */}
+        <BodyText
+          style={{
+            lineHeight: "1.5",
+          }}
+        >
+          Guido van Rossum, Python.org, https://www.python.org/.
+          <br />
+          Turing, Alan Mathison. &quot;On computable numbers, with an
+          application to the Entscheidungsproblem.&quot;(1936)
+          <br />
+          International Business Machines, Fortran,
+          https://fortran-lang.org/en/. <br />
+          Mitchel Resnick, interview with MWB, <i>MWB.com</i>, MWB, Feb 8. 2014
+          <br />
+          Micro Instrumentation and Telemetry Systems, Altair 8800, National
+          Musuem of American History, 1974
+        </BodyText>
+      </Body>
     </Wrapper>
   );
 }
