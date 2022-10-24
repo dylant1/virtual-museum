@@ -22,6 +22,17 @@ const Python = () => {
             <ul>
               <li>Artifact: The Python Programming Language</li>{" "}
               <li>Date Made: 1991 </li> <li>Creator: Guido van Rossum</li>{" "}
+              <li>
+                <a
+                  href="https://www.python.org/"
+                  style={{
+                    color: "blue",
+                    textDecoration: "underline",
+                  }}
+                >
+                  Link
+                </a>
+              </li>
             </ul>
           }
         ></Metadata>

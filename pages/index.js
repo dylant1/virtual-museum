@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Navbar } from "../components/Navbar";
 import { Chrono } from "react-chrono";
 import Link from "next/link";
-  export const Title = styled.h1`
+export const Title = styled.h1`
   font-family: "Libre Baskerville", serif;
 `;
 export const Wrapper = styled.div`
@@ -150,40 +150,69 @@ export default function Home() {
       </Body>
       <Body>
         <BodyHeader>Conclusion</BodyHeader>
-        <div>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </div>{" "}
-        <div>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </div>{" "}
-        <div>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </div>
+        <h4>&quot;Reinventing the wheel&quot;</h4>
+        <BodyText>
+          &emsp;This idiomatic metaphor is perhaps the most concise way to
+          highlight the importance of abstraction in computer science. When both
+          learning important concepts or researching unexplored areas in the
+          field, it is crucial to utilize this paradigm to ensure you are
+          focusing on the most relevant concepts, rather than having to
+          understand every single topic, however relevant it is to your
+          learning. This is most important for people trying to break into the
+          computer science field as their understanding of these topics is
+          lacking, thus relying on abstraction to approach their learning is
+          critical. Professors and researchers spend their entire lives studying
+          computers at a low level, demonstrating the complexity of this subject
+          and proving how it would be virtually impossible for a computer
+          science student or hobbyist to break into the computer science field
+          without abstraction. This is also why, as time has progressed, more
+          hardware and software have been developed to provide the simplest user
+          experience while still providing sufficient complexity and
+          functionality to ensure work can get done.{" "}
+        </BodyText>
+        <br />
+        <BodyText>
+          &emsp;The progression from assembly to Fortran to Python highlights
+          the value placed on abstracting concepts to improve software, namely
+          programming languages. While assembly language is the set of
+          instructions given to the actual processor, Python and Fortran are
+          processor independent, allowing them to be much easier to grasp,
+          improving productivity (See EXTRA section for a comparison).
+          Additionally, Scratch was created to provide an introduction to
+          programming for beginners. This language, while not as robust as other
+          languages, allows for an easier introduction to topics through
+          abstraction.
+        </BodyText>
+        <br />
+        <BodyText>
+          &emsp;On the hardware side, the transition from the theoretical Turing
+          machine to a fully constructed, available to the public, personal
+          computer demonstrates the importance of abstraction. Turing&apos;s
+          theoretical machine proposed in 1936 is the low level basis for the
+          modern computer, yet it is completely unnecessary for many people to
+          understand the concept behind it before jumping into the computer
+          science field. Thus, when the MITS released their computer, users
+          (especially students) were able to utilize these machines in their
+          learning to run programs and algorithms. After the Altair 8800, no
+          longer was it necessary to learn computer science from a purely
+          theoretical background, as abstraction in the form of physical
+          machines allowed the common person to write software without a
+          bulletproof understanding how the computer functioned at a low level.
+        </BodyText>
+        <br />
+        <BodyText>
+          &emsp; As modern computers have progressed due to advances in
+          technology, abstraction has become all the more important. As Mitchel
+          Resnick states in his interview, &quot;Our ultimate goals with Scratch
+          are to help young people think creatively, reason systematically and
+          work collaboratively.&quot; Without abstraction, this hands-on
+          learning would be extremely difficult as understanding every concept
+          sufficiently would require numerous years of studying.
+        </BodyText>
       </Body>
+      {/* <Body>
+        <BodyHeader>Bibliography</BodyHeader>
+            </Body> */}
     </Wrapper>
   );
 }

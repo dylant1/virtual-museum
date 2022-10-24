@@ -8,6 +8,9 @@ const MetadataWrapper = styled.div`
   display: flex;
   justify-content: center;
 `;
+const Img = styled.img`
+  max-width: 100%;
+`;
 const Fortran = () => {
   return (
     <Wrapper>
@@ -16,13 +19,37 @@ const Fortran = () => {
       </Title>
       <Navbar></Navbar>
       <br />
-      <img src="/fortran.webp" alt="fortran picture"></img>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: "1000px",
+          }}
+        >
+          <Img src="/fortran.webp" alt="fortran picture"></Img>
+        </div>
+      </div>
       <MetadataWrapper>
         <Metadata
           text={
             <ul>
               <li>Artifact: The Fortran Programming Language </li>{" "}
-              <li>Date Created: 1957 </li> <li>Maker: IBM</li>
+              <li>Date Created: 1957 </li> <li>Maker: IBM</li>{" "}
+              <li>
+                <a
+                  href="https://fortran-lang.org/en/"
+                  style={{
+                    color: "blue",
+                    textDecoration: "underline",
+                  }}
+                >
+                  Link
+                </a>
+              </li>
             </ul>
           }
         ></Metadata>

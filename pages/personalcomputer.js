@@ -27,6 +27,17 @@ const PersonalComputer = () => {
               <li>Maker: Micro Instrumentation and Telemetry Systems</li>{" "}
               <li>Place Manufactured: Albuquerque, New Mexio </li>{" "}
               <li>Measurements: 7in x 17in x 18in</li>
+              <li>
+                <a
+                  href="https://www.wolframscience.com/prizes/tm23/images/Turing.pdf"
+                  style={{
+                    color: "blue",
+                    textDecoration: "underline",
+                  }}
+                >
+                  Source
+                </a>
+              </li>
             </ul>
           }
         ></Metadata>

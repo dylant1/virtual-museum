@@ -32,8 +32,19 @@ const MitchelResnick = () => {
           text={
             <ul>
               <li>Speaker: Mitchel Resnick</li>
-              <li>Invention: Scratch</li> <li>Date interviewed: 2014</li>{" "}
-              <li>Creator: Guido van Rossum</li>{" "}
+              <li>Invention: Scratch</li> <li>Date interviewed: Feb 8, 2014</li>
+              <li>Interviewer: MWB</li>
+              <li>
+                <a
+                  href="https://mwb.com/2014/02/08/interview-mitchel-resnick/"
+                  style={{
+                    color: "blue",
+                    textDecoration: "underline",
+                  }}
+                >
+                  Link
+                </a>
+              </li>
             </ul>
           }
         ></Metadata>
@@ -41,11 +52,12 @@ const MitchelResnick = () => {
       <Body>
         <BodyHeader>Description</BodyHeader>
         <BodyText>
-          The MITS Altair 8800 is the first official personal computer released
-          to the public. Standing at a whopping $4000 for complete configuration
-          (external memory, printer, keyboard), this computer was perhaps the
-          first example of technology being abstracted to allow for the common
-          person to get work done.
+          In his interview, the inventor of Scratch discusses how important
+          programming is to everyone, especially young students starting their
+          careers. Scratch is a modern block-based programming language to
+          create projects in an easy to navigate interface. He puts a lot of
+          emphasis of the ease of use of Scratch and its accessibiilty to
+          children.
         </BodyText>
       </Body>
       <br /> <br /> <br /> <br /> <br /> <br />
