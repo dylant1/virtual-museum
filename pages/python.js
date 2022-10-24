@@ -1,14 +1,13 @@
 import { Navbar } from "../components/Navbar";
 import { Wrapper, Title, Body, BodyHeader, BodyText } from "./index";
 import Link from "next/link";
-import styled from "styled-components";
 import { Metadata } from "../components/Metadata";
-
+import styled from "styled-components";
 const MetadataWrapper = styled.div`
   display: flex;
   justify-content: center;
 `;
-const Oncomputablenumbers = () => {
+const Python = () => {
   return (
     <Wrapper>
       <Title>
@@ -16,13 +15,12 @@ const Oncomputablenumbers = () => {
       </Title>
       <Navbar></Navbar>
       <br />
-      <img src="/altair8800.png" alt="test"></img>
+      <img src="/python.png" alt="test"></img>
       <MetadataWrapper>
         <Metadata
           text={
             <ul>
-              <li>Object: Altair 8800 Microcomputer </li>{" "}
-              <li>Date Made: 1974 </li>{" "}
+              <li>Object: Python </li> <li>Date Made: 1974 </li>{" "}
               <li>Maker: Micro Instrumentation and Telemetry Systems</li>{" "}
               <li>Place Manufactured: Albuquerque, New Mexio </li>{" "}
               <li>Measurements: 7in x 17in x 18in</li>
@@ -45,4 +43,4 @@ const Oncomputablenumbers = () => {
   );
 };
 
-export default Oncomputablenumbers;
+export default Python;

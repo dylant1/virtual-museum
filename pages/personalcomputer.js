@@ -1,14 +1,15 @@
 import { Navbar } from "../components/Navbar";
 import { Wrapper, Title, Body, BodyHeader, BodyText } from "./index";
 import Link from "next/link";
-import styled from "styled-components";
+// import { altair8800 } from "../components/altair8800.png";
 import { Metadata } from "../components/Metadata";
-
+import styled from "styled-components";
 const MetadataWrapper = styled.div`
   display: flex;
   justify-content: center;
 `;
-const Oncomputablenumbers = () => {
+const Description = styled.div``;
+const PersonalComputer = () => {
   return (
     <Wrapper>
       <Title>
@@ -45,4 +46,4 @@ const Oncomputablenumbers = () => {
   );
 };
 
-export default Oncomputablenumbers;
+export default PersonalComputer;

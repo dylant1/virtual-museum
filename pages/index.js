@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Navbar } from "../components/Navbar";
 import { Chrono } from "react-chrono";
 import Link from "next/link";
-export const Title = styled.h1`
+  export const Title = styled.h1`
   font-family: "Libre Baskerville", serif;
 `;
 export const Wrapper = styled.div`
@@ -21,19 +21,21 @@ const A = styled.a`
     text-decoration: underline;
   }
 `;
-const Body = styled.div`
+export const Body = styled.div`
   text-align: left;
 `;
-const BodyHeader = styled.h2`
+export const BodyHeader = styled.h2`
   text-decoration: underline;
 `;
-const BodyText = styled.div`
+export const BodyText = styled.div`
   line-height: 1.5;
 `;
 export default function Home() {
   return (
     <Wrapper>
-      <Title>Abstraction and Accessibility in Computer Science</Title>
+      <Title>
+        <Link href="/">Abstraction and Accessibility in Computer Science</Link>
+      </Title>
       <Navbar />
       <Body>
         <BodyHeader>Introduction</BodyHeader>
@@ -79,19 +81,7 @@ export default function Home() {
       <br />
       <br />
       <Body>
-        <BodyHeader
-          style={{
-            // textAlign: "center",
-            textDecoration: "none",
-          }}
-        >
-          <Link href="/differentialengine">
-            <A>
-              1900: Charles Babbage Invents the Babbage Differential Engine
-              &#8594;
-            </A>
-          </Link>
-        </BodyHeader>
+        <BodyHeader>Artifacts</BodyHeader>
       </Body>
       <Body>
         <BodyHeader
@@ -113,15 +103,86 @@ export default function Home() {
         </BodyHeader>
       </Body>
       <Body>
-        <BodyHeader style={{ textDecoration: "none" }}>
-          <Link href="/mitchelresnick">
-            <A>2014: Interview: Mitchel Resnick &#8594;</A>
+        <BodyHeader
+          style={{
+            // textAlign: "center",
+            textDecoration: "none",
+          }}
+        >
+          <Link href="/fortran">
+            <A>1957: Fortran &#8594;</A>
           </Link>
         </BodyHeader>
       </Body>
-
+      <Body>
+        <BodyHeader style={{ textDecoration: "none" }}>
+          <Link href="/personalcomputer">
+            <A>1974: MITS Releases the First Personal Computer &#8594;</A>
+          </Link>
+        </BodyHeader>
+      </Body>{" "}
+      <Body>
+        <BodyHeader style={{ textDecoration: "none" }}>
+          <Link href="/python">
+            <A>1991: Python &#8594;</A>
+          </Link>
+        </BodyHeader>
+      </Body>
+      <Body>
+        <BodyHeader style={{ textDecoration: "none" }}>
+          <Link href="/mitchelresnick">
+            <A>2014: Interview with Mitchel Resnick &#8594;</A>
+          </Link>
+        </BodyHeader>
+      </Body>
+      <Body>
+        <BodyHeader style={{ textDecoration: "none" }}>
+          <Link href="/extra">
+            <A
+              style={{
+                color: "red",
+              }}
+            >
+              EXTRA: Abstraction Visualized in Programming Languages &#8594;
+            </A>
+          </Link>
+        </BodyHeader>
+      </Body>
       <Body>
         <BodyHeader>Conclusion</BodyHeader>
+        <div>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </div>{" "}
+        <div>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </div>{" "}
+        <div>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </div>
       </Body>
     </Wrapper>
   );
