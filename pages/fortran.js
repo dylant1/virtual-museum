@@ -20,7 +20,7 @@ const Fortran = () => {
         <Metadata
           text={
             <ul>
-              <li>Object: The Fortran Programming Language </li>{" "}
+              <li>Artifact: The Fortran Programming Language </li>{" "}
               <li>Date Created: 1957 </li> <li>Maker: IBM</li>
             </ul>
           }
@@ -31,7 +31,7 @@ const Fortran = () => {
         <BodyText>
           Known as the first widely-accepted high level programming languange,
           Fortran is still popular even today, due to its ease of use and
-          performance. Unlike lower level langauges like C and assembly, Fortran
+          performance. Unlike lower level languages like C and assembly, Fortran
           abstracts many of the complex features which often turn beginners
           away, and allows them to get up to speed relatively quickly.
         </BodyText>

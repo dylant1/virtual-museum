@@ -20,10 +20,8 @@ const Python = () => {
         <Metadata
           text={
             <ul>
-              <li>Object: Python </li> <li>Date Made: 1974 </li>{" "}
-              <li>Maker: Micro Instrumentation and Telemetry Systems</li>{" "}
-              <li>Place Manufactured: Albuquerque, New Mexio </li>{" "}
-              <li>Measurements: 7in x 17in x 18in</li>
+              <li>Artifact: The Python Programming Language</li>{" "}
+              <li>Date Made: 1991 </li> <li>Creator: Guido van Rossum</li>{" "}
             </ul>
           }
         ></Metadata>
@@ -31,11 +29,13 @@ const Python = () => {
       <Body>
         <BodyHeader>Description</BodyHeader>
         <BodyText>
-          The MITS Altair 8800 is the first official personal computer released
-          to the public. Standing at a whopping $4000 for complete configuration
-          (external memory, printer, keyboard), this computer was perhaps the
-          first example of technology being abstracted to allow for the common
-          person to get work done.
+          Python is the prime example of modern day abstraction in prgramming
+          languages. Many of the complex choices (e.g. memory management, types)
+          users must make when working with lower level languaes is completely
+          abstracted in python, allowing people to quickly utilize it to its
+          full potential. The ease of use of python combined with its
+          functionality is unparalleled, allowing it to be arguably the most
+          accessible language for both beginners and advanced developers.
         </BodyText>
       </Body>
       <br /> <br /> <br /> <br /> <br /> <br />

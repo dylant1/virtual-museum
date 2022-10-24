@@ -31,11 +31,9 @@ const MitchelResnick = () => {
         <Metadata
           text={
             <ul>
-              <li>Object: Altair 8800 Microcomputer </li>{" "}
-              <li>Date Made: 1974 </li>{" "}
-              <li>Maker: Micro Instrumentation and Telemetry Systems</li>{" "}
-              <li>Place Manufactured: Albuquerque, New Mexio </li>{" "}
-              <li>Measurements: 7in x 17in x 18in</li>
+              <li>Speaker: Mitchel Resnick</li>
+              <li>Invention: Scratch</li> <li>Date interviewed: 2014</li>{" "}
+              <li>Creator: Guido van Rossum</li>{" "}
             </ul>
           }
         ></Metadata>

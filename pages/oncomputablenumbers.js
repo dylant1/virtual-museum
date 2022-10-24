@@ -8,6 +8,9 @@ const MetadataWrapper = styled.div`
   display: flex;
   justify-content: center;
 `;
+const Img = styled.img`
+  max-width: 250px;
+`;
 const Oncomputablenumbers = () => {
   return (
     <Wrapper>
@@ -16,16 +19,27 @@ const Oncomputablenumbers = () => {
       </Title>
       <Navbar></Navbar>
       <br />
-      <img src="/altair8800.png" alt="test"></img>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <Img src="/oncomputable.webp" alt="turing machine paper"></Img>
+      </div>
+      <br />
       <MetadataWrapper>
         <Metadata
           text={
             <ul>
-              <li>Object: Altair 8800 Microcomputer </li>{" "}
-              <li>Date Made: 1974 </li>{" "}
-              <li>Maker: Micro Instrumentation and Telemetry Systems</li>{" "}
-              <li>Place Manufactured: Albuquerque, New Mexio </li>{" "}
-              <li>Measurements: 7in x 17in x 18in</li>
+              <li>
+                Paper:{" "}
+                <i>
+                  On Computable Numbers, with an application to the
+                  Entscheidungsproblem
+                </i>
+              </li>
+              <li>Author: Alan M. Turing </li> <li>Date: 1936</li>
             </ul>
           }
         ></Metadata>
@@ -33,11 +47,13 @@ const Oncomputablenumbers = () => {
       <Body>
         <BodyHeader>Description</BodyHeader>
         <BodyText>
-          The MITS Altair 8800 is the first official personal computer released
-          to the public. Standing at a whopping $4000 for complete configuration
-          (external memory, printer, keyboard), this computer was perhaps the
-          first example of technology being abstracted to allow for the common
-          person to get work done.
+          This is the first ever proof of a Turing machine, presented by Alan M
+          Turing in 1936. In this paper, Turing describes an abstract machine
+          that is able to manipulate symbols on a strip of tape, depending on a
+          set of rules to perform computations and implementing computer
+          algorithms. This proof is the basis of modern computers, which are
+          turing-complete, meaning they are able to simulate any Turing machine
+          assuming an infinite amount of memory (tape).
         </BodyText>
       </Body>
       <br /> <br /> <br /> <br /> <br /> <br />
